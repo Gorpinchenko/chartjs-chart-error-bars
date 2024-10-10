@@ -1,4 +1,4 @@
-import { registry } from 'chart.js';
+import { registry } from 'chart-js-v4';
 import {
   BarWithErrorBarsController,
   LineWithErrorBarsController,

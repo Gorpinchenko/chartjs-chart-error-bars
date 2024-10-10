@@ -1,4 +1,4 @@
-import { Tooltip, PolarAreaController, TooltipItem, TooltipModel } from 'chart.js';
+import { Tooltip, PolarAreaController, TooltipItem, TooltipModel } from 'chart-js-v4';
 import { modelKeys } from './utils';
 import type { IErrorBarRDataPoint, IErrorBarXYDataPoint } from './base';
 

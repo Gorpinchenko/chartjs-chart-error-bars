@@ -109,5 +109,8 @@
     "docs:build": "yarn run docs:api && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.5.0",
+  "dependencies": {
+    "chart-js-v4": "npm:chart.js@^4.4.4"
+  }
 }

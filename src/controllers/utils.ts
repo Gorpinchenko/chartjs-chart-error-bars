@@ -1,4 +1,4 @@
-import type { LinearScale, RadialLinearScale, Scale } from 'chart.js';
+import type { LinearScale, RadialLinearScale, Scale } from 'chart-js-v4';
 import type { IErrorBarRDataPoint, IErrorBarXYDataPoint } from './base';
 
 export const allModelKeys = ['xMin', 'xMax', 'yMin', 'yMax'];

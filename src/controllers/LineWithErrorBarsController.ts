@@ -14,8 +14,8 @@ import {
   Element,
   LineControllerChartOptions,
   CartesianScaleTypeRegistry,
-} from 'chart.js';
-import { merge } from 'chart.js/helpers';
+} from 'chart-js-v4';
+import { merge } from 'chart-js-v4/helpers';
 import { calculateScale, isNumericScale } from './utils';
 import type { IErrorBarOptions } from '../elements/render';
 import { PointWithErrorBar } from '../elements';
@@ -182,7 +182,7 @@ export interface LineWithErrorBarsControllerDatasetOptions
   extends LineControllerDatasetOptions,
     ScriptableAndArrayOptions<IErrorBarOptions, ScriptableContext<'lineWithErrorBars'>> {}
 
-declare module 'chart.js' {
+declare module 'chart-js-v4' {
   export interface ChartTypeRegistry {
     lineWithErrorBars: {
       chartOptions: LineControllerChartOptions;

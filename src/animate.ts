@@ -1,4 +1,4 @@
-import { color } from 'chart.js/helpers';
+import { color } from 'chart-js-v4/helpers';
 import { styleKeys } from './elements/render';
 import { allModelKeys } from './controllers/utils';
 

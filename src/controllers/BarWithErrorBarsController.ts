@@ -14,8 +14,8 @@ import {
   Element,
   BarControllerChartOptions,
   CartesianScaleTypeRegistry,
-} from 'chart.js';
-import { merge } from 'chart.js/helpers';
+} from 'chart-js-v4';
+import { merge } from 'chart-js-v4/helpers';
 import { calculateScale, isNumericScale } from './utils';
 import type { IErrorBarOptions } from '../elements/render';
 import { BarWithErrorBar } from '../elements';
@@ -136,7 +136,7 @@ export interface BarWithErrorBarsControllerDatasetOptions
   extends BarControllerDatasetOptions,
     ScriptableAndArrayOptions<IErrorBarOptions, ScriptableContext<'barWithErrorBars'>> {}
 
-declare module 'chart.js' {
+declare module 'chart-js-v4' {
   export interface ChartTypeRegistry {
     barWithErrorBars: {
       chartOptions: BarControllerChartOptions;

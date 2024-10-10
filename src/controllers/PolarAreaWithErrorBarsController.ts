@@ -13,8 +13,8 @@ import {
   ScriptableContext,
   PolarAreaControllerChartOptions,
   CartesianScaleTypeRegistry,
-} from 'chart.js';
-import { merge } from 'chart.js/helpers';
+} from 'chart-js-v4';
+import { merge } from 'chart-js-v4/helpers';
 import { calculatePolarScale } from './utils';
 import { getMinMax, IErrorBarRDataPoint, parseErrorNumberData } from './base';
 import { generateTooltipPolar } from './tooltip';
@@ -194,7 +194,7 @@ export interface PolarAreaWithErrorBarsControllerDatasetOptions
   extends PolarAreaControllerDatasetOptions,
     ScriptableAndArrayOptions<IErrorBarOptions, ScriptableContext<'polarAreaWithErrorBars'>> {}
 
-declare module 'chart.js' {
+declare module 'chart-js-v4' {
   export interface ChartTypeRegistry {
     polarAreaWithErrorBars: {
       chartOptions: PolarAreaControllerChartOptions;

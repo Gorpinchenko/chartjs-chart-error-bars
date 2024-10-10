@@ -5,7 +5,7 @@ import {
   ChartType,
   ScriptableAndArrayOptions,
   ScriptableContext,
-} from 'chart.js';
+} from 'chart-js-v4';
 import { renderErrorBarArc, errorBarDefaults, errorBarDescriptors, IErrorBarOptions } from './render';
 
 export default class ArcWithErrorBar extends ArcElement {
@@ -36,7 +36,7 @@ export default class ArcWithErrorBar extends ArcElement {
   static readonly descriptors = errorBarDescriptors;
 }
 
-declare module 'chart.js' {
+declare module 'chart-js-v4' {
   export interface ElementOptionsByType<TType extends ChartType> {
     arcWithErrorBar: ScriptableAndArrayOptions<
       IErrorBarOptions & ArcOptions & ArcHoverOptions,

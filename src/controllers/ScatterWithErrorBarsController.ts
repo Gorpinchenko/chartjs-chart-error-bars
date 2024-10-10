@@ -14,8 +14,8 @@ import {
   Element,
   ScatterControllerChartOptions,
   CartesianScaleTypeRegistry,
-} from 'chart.js';
-import { merge } from 'chart.js/helpers';
+} from 'chart-js-v4';
+import { merge } from 'chart-js-v4/helpers';
 import { calculateScale } from './utils';
 import { getMinMax, IErrorBarXYDataPoint, parseErrorNumberData } from './base';
 import { generateTooltipScatter } from './tooltip';
@@ -152,7 +152,7 @@ export interface ScatterWithErrorBarsControllerDatasetOptions
   extends ScatterControllerDatasetOptions,
     ScriptableAndArrayOptions<IErrorBarOptions, ScriptableContext<'scatterWithErrorBars'>> {}
 
-declare module 'chart.js' {
+declare module 'chart-js-v4' {
   export interface ChartTypeRegistry {
     scatterWithErrorBars: {
       chartOptions: ScatterControllerChartOptions;

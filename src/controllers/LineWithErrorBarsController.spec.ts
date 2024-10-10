@@ -6,7 +6,7 @@ import {
   TimeScale,
   TimeSeriesScale,
   LogarithmicScale,
-} from 'chart.js';
+} from 'chart-js-v4';
 import 'chartjs-adapter-date-fns';
 import createChart from '../__tests__/createChart';
 import { LineWithErrorBarsController } from './LineWithErrorBarsController';

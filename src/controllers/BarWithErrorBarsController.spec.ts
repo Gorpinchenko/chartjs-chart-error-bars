@@ -1,4 +1,4 @@
-import { registry, LinearScale, CategoryScale, TimeScale } from 'chart.js';
+import { registry, LinearScale, CategoryScale, TimeScale } from 'chart-js-v4';
 import createChart from '../__tests__/createChart';
 import { BarWithErrorBarsController } from './BarWithErrorBarsController';
 import { BarWithErrorBar } from '../elements';

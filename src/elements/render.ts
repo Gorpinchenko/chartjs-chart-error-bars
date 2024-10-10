@@ -1,4 +1,4 @@
-import type { Element, ArcProps } from 'chart.js';
+import type { Element, ArcProps } from 'chart-js-v4';
 
 export const errorBarDefaults = {
   errorBarLineWidth: { v: [1, 3] },

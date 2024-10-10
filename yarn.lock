@@ -2190,7 +2190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:^4.4.4":
+"chart-js-v4@npm:chart.js@^4.4.4, chart.js@npm:^4.4.4":
   version: 4.4.4
   resolution: "chart.js@npm:4.4.4"
   dependencies:
@@ -2224,6 +2224,7 @@ __metadata:
     "@yarnpkg/sdks": "npm:^3.2.0"
     canvas: "npm:^2.11.2"
     canvas-5-polyfill: "npm:^0.1.5"
+    chart-js-v4: "npm:chart.js@^4.4.4"
     chart.js: "npm:^4.4.4"
     chartjs-adapter-date-fns: "npm:^3.0.0"
     date-fns: "npm:^4.1.0"

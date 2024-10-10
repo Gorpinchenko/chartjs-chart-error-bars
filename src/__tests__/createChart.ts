@@ -1,7 +1,7 @@
 /// <reference types="node" />
 
 import { expect } from 'vitest';
-import { Chart, ChartConfiguration, defaults, ChartType, DefaultDataPoint } from 'chart.js';
+import { Chart, ChartConfiguration, defaults, ChartType, DefaultDataPoint } from 'chart-js-v4';
 import { toMatchImageSnapshot, MatchImageSnapshotOptions } from 'jest-image-snapshot';
 import 'canvas-5-polyfill';
 

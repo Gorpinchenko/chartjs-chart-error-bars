@@ -1,4 +1,4 @@
-import { registry, LinearScale } from 'chart.js';
+import { registry, LinearScale } from 'chart-js-v4';
 import createChart from '../__tests__/createChart';
 import { ScatterWithErrorBarsController } from './ScatterWithErrorBarsController';
 import { PointWithErrorBar } from '../elements';

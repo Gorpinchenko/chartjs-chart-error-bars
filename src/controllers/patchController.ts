@@ -1,4 +1,4 @@
-import { registry, DatasetControllerChartComponent, ChartComponent } from 'chart.js';
+import { registry, DatasetControllerChartComponent, ChartComponent } from 'chart-js-v4';
 
 export default function patchController<T, TYPE>(
   type: TYPE,
